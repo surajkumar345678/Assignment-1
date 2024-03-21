@@ -34,6 +34,7 @@ button {
   color: white;
   border: none;
   font-weight: bold;
+  border: 1px solid red;
   border-radius: 7px;
 }
 
@@ -65,9 +66,13 @@ button {
   height: 35px;
 }
 
-.button-container button.active {
-  background-color: lightgrey;
+.active {
+  background: linear-gradient(to top, #333333, #dd1818);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
 }
+
+
 
 .buttons input[type="number"],
 .buttons input[type="color"] {
