@@ -77,7 +77,7 @@ button {
 }
 
 /* Media Queries for Responsiveness */
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .container {
     grid-template-columns: 1fr;
     gap: 10px;
