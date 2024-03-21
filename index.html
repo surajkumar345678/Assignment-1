@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 1</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section>
+            <!-- first sentence container -->
+            <div class="container">
+                <!-- container for buttons -->
+                <div class="buttons">
+                    <!-- buttons for styling -->
+                    <div class="button-container">
+                        <button id="boldBtn1" onclick="toggleBold(this)">Bold</button>
+                        <button id="italicBtn1" onclick="toggleItalic(this)">Italic</button>
+                        <button id="underlineBtn1" onclick="toggleUnderline(this)">Underline</button>
+                    </div>
+                    <!-- font size and color inputs -->
+                    <input type="number" name="" id="fontSize1" min="8" max="72" value="16"
+                        oninput="changeFontSize(this)">
+                    <input type="color" name="" id="fontColor1" value="#000000" onchange="changeFontColor(this)">
+                </div>
+                <!-- container for text -->
+                <div class="text-container">
+                    <!-- text to be styled -->
+                    <p class="text" id="sentence1">He's not the sharpest knife in the drawer.</p>
+                </div>
+            </div>
+
+            <!-- second sentence container -->
+            <div class="container">
+                <!-- container for buttons -->
+                <div class="buttons">
+                    <!-- buttons for styling -->
+                    <div class="button-container">
+                        <button id="boldBtn2" onclick="toggleBold(this)">Bold</button>
+                        <button id="italicBtn2" onclick="toggleItalic(this)">Italic</button>
+                        <button id="underlineBtn2" onclick="toggleUnderline(this)">Underline</button>
+                    </div>
+                    <!-- font size and color inputs -->
+                    <input type="number" id="fontSize2" min="8" max="72" value="16" oninput="changeFontSize(this)">
+                    <input type="color" name="" id="fontColor2" value="#000000" onchange="changeFontColor(this)">
+                </div>
+                <!-- container for text -->
+                <div class="text-container">
+                    <!-- text to be styled -->
+                    <p class="text" id="sentence2">The big building was blazing with lights.</p>
+                </div>
+            </div>
+
+            <!-- third sentence container -->
+            <div class="container">
+                <!-- container for buttons -->
+                <div class="buttons">
+                    <!-- buttons for styling -->
+                    <div class="button-container">
+                        <button id="boldBtn3" onclick="toggleBold(this)">Bold</button>
+                        <button id="italicBtn3" onclick="toggleItalic(this)">Italic</button>
+                        <button id="underlineBtn3" onclick="toggleUnderline(this)">Underline</button>
+                    </div>
+                    <!-- font size and color inputs -->
+                    <input type="number" id="fontSize3" min="8" max="72" value="16" oninput="changeFontSize(this)">
+                    <input type="color" name="" id="fontColor3" value="#000000" onchange="changeFontColor(this)">
+                </div>
+                <!-- container for text -->
+                <div class="text-container">
+                    <!-- text to be styled -->
+                    <p class="text" id="sentence3">Now you must answer some big questions.</p>
+                </div>
+            </div>
+
+            <!-- fourth sentence container -->
+            <div class="container">
+                <!-- container for buttons -->
+                <div class="buttons">
+                    <!-- buttons for styling -->
+                    <div class="button-container">
+                        <button id="boldBtn4" onclick="toggleBold(this)">Bold</button>
+                        <button id="italicBtn4" onclick="toggleItalic(this)">Italic</button>
+                        <button id="underlineBtn4" onclick="toggleUnderline(this)">Underline</button>
+                    </div>
+                    <!-- font size and color inputs -->
+                    <input type="number" id="fontSize4" min="8" max="72" value="16" oninput="changeFontSize(this)">
+                    <input type="color" name="" id="fontColor4" value="#000000" onchange="changeFontColor(this)">
+                </div>
+                <!-- container for text -->
+                <div class="text-container">
+                    <!-- text to be styled -->
+                    <p class="text" id="sentence4">Get Your Act Together!</p>
+                </div>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

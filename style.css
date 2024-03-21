@@ -1,0 +1,51 @@
+/* styles for layout */
+section {
+  border: 2px solid red;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 40px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.buttons {
+  border: 2px solid red;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.text-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  border: 2px solid red;
+}
+.text {
+  font-size: 16px;
+  color: black;
+  font-weight: normal;
+  font-size: normal;
+  text-decoration: none;
+  margin: 20px;
+}
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+.button-container button {
+  cursor: pointer;
+  width: 75px;
+  height: 30px;
+}
+.button-container button.active {
+  background-color: lightgrey;
+}
+
+.buttons input[type="number"],
+.buttons input[type="color"] {
+  width: 75px;
+  height: 30px;
+}
